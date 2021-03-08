@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(39, 34, 34);
+}
+
+.jumbotron {
+    background: url(/images/espresso.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*padding-top: 20rem;
+    padding-bottom: 20rem;*/
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-dark {
+    background: transparent !important;
+}
+.bg-dark.scrolled {
+    background: rgb(39, 34, 34) !important;
+}
+
+.landing-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.navbar a {
+    font-size: 1.3rem; 
+}
+
+/*nav {
+    border-bottom: thin solid rgb(200, 198, 198);
+}
+
+nav.scrolled {
+    border-bottom: solid transparent;
+}*/
+
+.card-img-top {
+    width: 100%;
+    height: 39vw;
+    object-fit: cover;
+}
+
+.card {
+    background-color:rgb(39, 34, 34);
+    color: white;
+}
+
+.c-size {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 200px; 
+    height: auto;
+    margin-left: 125px;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar a {
+    font-size: 1.3rem;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.jumbotron {
+    background-image:url(/images/espresso2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover; 
+    background-position: bottom 50%;
+    height: 750px;
+    margin-bottom: 0px;
+}
+
+.card-image {
+    width: 500px;
+    border-radius:15px;
+}
+
+.card {
+    border: none;
+    background-color: rgb(238, 238, 238);
+    margin-top: 75px;
+}
+
+.card-header {
+    background-color: rgb(238, 238, 238);
+}
+
+.content { 
+    background-color: rgb(238, 238, 238);
+}
+
+.card-title {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
