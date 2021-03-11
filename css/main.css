@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(238, 238, 238);
+}
+
 .logo {
-    width: 200px; 
+    max-width: 250px; 
     height: auto;
-    margin-left: 125px;
+    margin-left: 0px;
 }
 
 .navbar {
@@ -15,44 +19,99 @@
     padding-bottom: 0px;
 }
 .navbar a {
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .2rem;
 }
 
 .navbar a:hover {
     text-decoration: underline;
 }
 
-.jumbotron {
-    background-image:url(/images/espresso2.jpg);
-    background-repeat:no-repeat;
-    background-size: cover; 
-    background-position: bottom 50%;
-    height: 750px;
+
+.head-bg {
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/images/espresso.jpg) center center;
+    background-size: cover;
     margin-bottom: 0px;
 }
 
-.card-image {
-    width: 500px;
-    border-radius:15px;
+
+
+footer {
+    background-color:rgba(180, 167, 156, 0.65);
+    margin-top: 90px;
 }
 
-.card {
-    border: none;
-    background-color: rgb(238, 238, 238);
-    margin-top: 75px;
+h1.body {
+    margin-top: 300px;
 }
 
-.card-header {
-    background-color: rgb(238, 238, 238);
+.media-body{
+    margin-left: 50%
 }
 
-.content { 
-    background-color: rgb(238, 238, 238);
+.copyright {
+    background-color:rgba(185, 174, 165, 0.65);
 }
 
-.card-title {
-    text-decoration: underline;
+.footer-logo {
+    width: 200px;
 }
+
+.img-r {
+    margin-left: 37%;
+}
+
+#background-video {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 950px;
+    object-fit: cover;
+    position: relative;
+}
+
+
+
+.caption {
+    position: absolute;
+    top: 28%;
+    max-width: 100%;
+    height: auto;
+    color: white;
+    left: 13%;
+    right: 13%;
+}
+
+.caption h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 25%;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.responsive-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-custom {
+    background-color: rgba(180, 167, 156, 0.65);
+}
+
+
+
+
 
 
 
