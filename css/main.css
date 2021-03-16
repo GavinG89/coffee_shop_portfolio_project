@@ -116,7 +116,15 @@ h1.body {
     border-radius: 2%;
 }
 
+.bottom-radius {
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
 
+.top-radius {
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
 
 #events {
     background: url(/images/event-background.jpg);

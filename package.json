@@ -2,7 +2,7 @@
   "name": "bootstrap-practice-landing",
   "version": "1.0.0",
   "description": "This is a landing page I am making with bootstrap for practice.",
-  "main": "index.html",
+  "main": "home.html",
   "dependencies": {
     "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
