@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0;
@@ -34,7 +37,7 @@ body {
 
 
 .head-bg {
-    height: 950px;
+    height: 920px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,8 +114,13 @@ h1.body {
     background-color: rgba(180, 167, 156, 0.65);
 }
 
+#menu {
+    background-image: url(/images/menu-background.jpg);
+    background-repeat: no-repeat;
+}
+
 .card {
-    background-color: rgb(226, 223, 223);
+    background-color: rgba(226, 223, 223, 0.95);
     border: none;
     border-radius: 2%;
 }
@@ -147,10 +155,11 @@ h1.body {
 }
 
 .boxed {
-    background-color: rgb(226, 223, 223);
+    background-color: rgba(54, 51, 51, 0.90);
     margin: auto;
     border-radius: 2%;
     margin-top: 11px;
+    padding-bottom: 2px;
 }
 
 #contact {
@@ -159,6 +168,20 @@ h1.body {
 
 #contact .card {
     background-color: rgba(226, 223, 223, 0.95);
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:75%;
+    width:75%;
+    position:absolute;
 }
 
 
